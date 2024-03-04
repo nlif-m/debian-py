@@ -2,6 +2,7 @@ name: Build debian docker image with python installed
 on:
   push:
     branches: [ "master" ]
+    tags: [ 'v*.*.*' ]
 env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
