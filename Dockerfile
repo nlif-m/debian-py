@@ -36,4 +36,4 @@ STOPSIGNAL SIGRTMIN+3
 
 VOLUME [ "/sys/fs/cgroup" ]
 
-ENTRYPOINT ["/sbin/init"]
+ENTRYPOINT ["/lib/systemd/systemd"]
